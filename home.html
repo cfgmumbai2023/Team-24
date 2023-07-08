@@ -1,38 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Complete Website Layout</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="https://scontent-bom1-2.xx.fbcdn.net/v/t39.30808-6/306557104_416805143915830_3370499058729795501_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Ot793yg03wkAX8EvWkv&_nc_ht=scontent-bom1-2.xx&oh=00_AfBzz3m6va-LRCqk1eBrF79XTX8GtCtdOTIRs6kZUG6IOg&oe=64AF831B" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mentors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Doubts.html">Doubts</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>URMI</title>
-</head>
+    
 
-<body>
-
-    <h5>This is Urmi</h5>
-    <div class='tableauPlaceholder' id='viz1688824498951' style='position: relative'>
-        <noscript><a href='#'><img alt='Population and Birth Rate (2012) '
-                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldIndicators_16888243643480&#47;Population&#47;1_rss.png'
-                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-            <param name='embed_code_version' value='3' />
-            <param name='path'
-                value='views&#47;WorldIndicators_16888243643480&#47;Population?:language=en-US&amp;:embed=true&amp;publish=yes' />
-            <param name='toolbar' value='yes' />
-            <param name='static_image'
-                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldIndicators_16888243643480&#47;Population&#47;1.png' />
-            <param name='animate_transition' value='yes' />
-            <param name='display_static_image' value='yes' />
-            <param name='display_spinner' value='yes' />
-            <param name='display_overlay' value='yes' />
-            <param name='display_count' value='yes' />
-            <param name='language' value='en-US' />
-            <param name='filter' value='publish=yes' />
-        </object>
+    <!--- Welcome Section -->
+    <div
+      class="container-fluid padding"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+    >
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">Urmi Foundation</h1>
+        </div>
+        <hr />
+        <div class="col-12">
+          <p class="lead">We stand for special ones</p>
+        </div>
+      </div>
     </div>
-    <script
-        type='text/javascript'>                    var divElement = document.getElementById('viz1688824498951'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+   
+    <!--- Two Column Section -->
+    <div
+      class="container-fluid padding"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+    >
+      
 
-</body>
+    <hr class="my-4" />
 
+    <div class='tableauPlaceholder' id='viz1688824498951' style='position: relative'>
+      <noscript><a href='#'><img alt='Population and Birth Rate (2012) '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldIndicators_16888243643480&#47;Population&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='path'
+              value='views&#47;WorldIndicators_16888243643480&#47;Population?:language=en-US&amp;:embed=true&amp;publish=yes' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image'
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldIndicators_16888243643480&#47;Population&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='en-US' />
+          <param name='filter' value='publish=yes' />
+      </object>
+  </div>
+  <script
+      type='text/javascript'>                    var divElement = document.getElementById('viz1688824498951'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <!--- Two Column Section -->
+    <div
+      class="container-fluid padding"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+    >
+      
+      <hr class="my-4" />
+    </div>
+
+    <!--- Connect -->
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-12">
+          <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+          <a href="https://www.facebook.com/UrmiFoundation/"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/UrmiFoundation"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.google.com/search?q=urmi+foundation+mumbai&oq=urmi&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg7MgYIARBFGDsyBggCEEUYOzIGCAMQRRg5MgwIBBAAGBQYhwIYgAQyDQgFEC4YrwEYxwEYgAQyDQgGEC4YgwEYsQMYgAQyDQgHEC4YgwEYsQMYgAQyDQgIEC4YrwEYxwEYgAQyDQgJEC4YrwEYxwEYgATSAQ4yODY4ODE5OThqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8"><i class="fab fa-google-plus-g"></i></a>
+          <a href="https://www.instagram.com/urmifoundation/"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!--- Footer -->
+    <footer>
+      <div
+        class="container-fluid padding"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
+        <div class="row text-center">
+          <div class="col-md-4 pt-0">
+            <div class="footer-image">
+              <img src="img/logo6.jpg" />
+            </div>
+            <hr class="light" />
+            <p>555-555-5555</p>
+            <p>email@hhemail.com</p>
+            <p>69 Street Name</p>
+            <p>City, State, 888</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="light" />
+            <h5>Our hours</h5>
+            <hr class="light" />
+            <p>Monday: 9am - 5pm</p>
+            <p>Saturday: 10am - 4pm</p>
+            <p>Sunday: Closed</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="light" />
+            <h5>Service Area</h5>
+            <hr class="light" />
+            <p>City, State, 900</p>
+            <p>City, State, 800</p>
+            <p>City, State, 700</p>
+            <p>City, State, 600</p>
+          </div>
+          <div class="col-12">
+            <hr class="light-100" />
+            <h5>&copy; Website Learning</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
