@@ -1,0 +1,25 @@
+
+body {
+  background-color: #E8ECEF;
+  margin: 0px !important;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.header_container{
+  position: sticky;
+  top: 0px;
+  background-color: purple;
+  padding: 0.5rem;
+
+}
