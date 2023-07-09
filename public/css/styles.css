@@ -1,6 +1,7 @@
 
 body {
   background-color: #E8ECEF;
+  margin: 0px !important;
 }
 
 .centered {
@@ -13,4 +14,12 @@ body {
   font-size: 2rem;
   color: #fff;
   background-color: #000;
+}
+
+.header_container{
+  position: sticky;
+  top: 0px;
+  background-color: purple;
+  padding: 0.5rem;
+
 }
