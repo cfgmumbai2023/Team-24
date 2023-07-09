@@ -213,7 +213,10 @@ app.get("/submit", function(req, res){
   }
 });
 
-
+// app.get("/update",function(req,res)
+// {
+//   res.write("form.html")
+// })
 app.get("/logout", function(req, res){
   req.logout();
   res.redirect("/");
@@ -238,7 +241,7 @@ app.post("/login", function(req, res){
 
   const user = new User({
     username: req.body.username,
-    password: req.body.password
+    password: req.body.password,
   });
 
   req.login(user, function(err){
@@ -252,6 +255,14 @@ app.post("/login", function(req, res){
   });
 
 });
+app.get("/form",function(req,res)
+{
+  res.render("form");
+})
+app.post("/form",function(req,res)
+{
+  console.log("submitted")
+})
 app.listen(3000, function() {
   console.log("Server started on port 3000.");
 });

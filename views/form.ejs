@@ -180,7 +180,7 @@
 <body>
   <div class="form-container">
     <h2>Data Collection example</h2>
-    <form name="myForm" onsubmit="return validateForm()" method="post" action="/form.html">
+    <form name="myForm" onsubmit="return validateForm()" method="post" action="/form">
       <div class="form-group">
         <label for="bmcSchool">BMC School:</label>
         <input type="text" id="bmcSchool" name="bmcSchool" required>
@@ -270,5 +270,4 @@
       </div>
     </form>
   </div>
-</body>
-</html>
+  <%- include('partials/footer') %>
